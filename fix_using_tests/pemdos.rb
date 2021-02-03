@@ -6,6 +6,7 @@ def snake_it_up(string)
     10.times do
       newstring = "s" + newstring
     end
+    return newstring
   else
     string
   end
